@@ -1,7 +1,7 @@
-// Get a reference to the button element with the ID "randomBtn"
+// Reference to the button element with the ID "randomBtn"
 let randomBtn = document.getElementById("randomBtn");
 
-// Get a reference to the div element with the ID "jokeDisplay"
+// Reference to the div element with the ID "jokeDisplay"
 const jokeDisplay = document.getElementById("jokeDisplay");
 
 // Define an asynchronous function to fetch a dad joke from the API
