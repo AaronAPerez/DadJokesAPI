@@ -1,7 +1,7 @@
-// Get a reference to the button element with the ID "randomBtn"
+// button element with the ID "randomBtn"
 let randomBtn = document.getElementById("randomBtn");
 
-// Get a reference to the div element with the ID "jokeDisplay"
+// div element with the ID "jokeDisplay"
 const jokeDisplay = document.getElementById("jokeDisplay");
 
 // Define an asynchronous function to fetch a dad joke from the API
@@ -26,19 +26,19 @@ const getDadJoke = async () => {
   }
 };
 
-// Add a click event listener to the randomBtn element
+// click event listener to the randomBtn element
 // When clicked, call the getDadJoke function
 randomBtn.addEventListener("click", getDadJoke);
 
-// Call a function getDateTime() and store the result in dateTime
+// Call function getDateTime() and store the result in dateTime
 var dateTime = getDateTime();
 
 // Update the textContent of an element with ID "dateTime" with a formatted date and time string
 document.getElementById('dateTime').innerHTML = `${dateTime[0]} &middot; ${dateTime[1]}`
 
-// Define a function to get the current date and time in a specific format
+// function to get the current date and time in a specific format
 function getDateTime() {
-  // Define an array of month names
+  // array of month names
   const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "July", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
   // Get the current date
